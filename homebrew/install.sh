@@ -13,7 +13,25 @@ then
   exit
 fi
 
+brew update
+brew upgrade
+
 # Install homebrew packages
-brew install grc coreutils spark
+brew install git grc coreutils spark
+
+# Install more recent versions of some OS X tools
+brew tap homebrew/dupes
+brew install homebrew/dupes/grep
+brew tap josegonzalez/homebrew-php
+brew install php55
+
+# Install native apps
+brew tap phinze/homebrew-cask
+brew install brew-cask
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+brew cask install alfred bettertouchtool cloudapp dropbox f-lux google-chrome iterm2 spotify the-unarchiver u-torrent vlc
+
+brew cleanup
 
 exit 0
