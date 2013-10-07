@@ -17,7 +17,7 @@ brew update
 brew upgrade
 
 # Install homebrew packages
-brew install git grc coreutils spark
+brew install git git-extras git-flow zsh grc coreutils spark rbenv ruby-build node
 
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
