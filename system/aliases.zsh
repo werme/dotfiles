@@ -9,16 +9,10 @@ then
   alias la='gls -A --color'
 fi
 
-alias home="cd ~"
-alias dev="cd ~/dev"
-alias desk="cd ~/Desktop"
-alias drop="cd ~/Dropbox"
-alias down="cd ~/Downloads"
-
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias .....="cd ../../../.."alias ..="cd .."
+alias .....="cd ../../../.."
 
 alias g="git"
 
@@ -29,4 +23,3 @@ alias localip="ifconfig -a | grep-o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
-alias dotfiles="cd ~/.dotfiles"
