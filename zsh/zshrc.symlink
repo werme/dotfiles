@@ -2,7 +2,7 @@
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/dev
 
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
@@ -39,3 +39,5 @@ done
 
 unset config_files
 
+# oh-my-zsh
+# source $HOME/.dotfiles/zsh/oh-my-zsh
