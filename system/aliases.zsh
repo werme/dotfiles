@@ -9,6 +9,8 @@ then
   alias la='gls -A --color'
 fi
 
+alias lsa="ls -a"
+
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
