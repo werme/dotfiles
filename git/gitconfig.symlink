@@ -29,6 +29,7 @@
         wtf = !git-wtf
         rank = !git log | grep Author | sed 's/Author: //' | sort | uniq -c | sort -rn
         commits = !git shortlog -sn
+        ls = ls-files
 
 [apply]
 	# Detect whitespace errors when applying a patch
