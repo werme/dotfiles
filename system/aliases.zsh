@@ -10,6 +10,7 @@ then
 fi
 
 alias lsa="ls -a"
+alias lsd="find ./ -type d | sed -e 's/[^-][^\/]*\//--/g;s/--/ |-/'"
 
 alias ..="cd .."
 alias ...="cd ../.."
