@@ -48,3 +48,5 @@ bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+
+set -o emacs set editing-mode emacs
